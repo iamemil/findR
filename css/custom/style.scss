@@ -2,13 +2,20 @@
 
 $navbar: #191f56;
 $bgcolor: #14183a;
-$textcolor1: #cdced2;
+$textcolor1: rgb(205, 206, 210);
 $btncolor1: #f6c93b;
 .mainWrapper{
     font-family: 'Roboto',sans-serif;
     background-color: $bgcolor;
+    color: $textcolor1;
     .navbar{
         background-color: $navbar;
+        .nav-link, a.nav-link{
+            color: $textcolor1;
+            &:hover,&:active{
+               color: rgb(243, 243, 243);
+            }
+        }
         .navbar-brand{
             color: $textcolor1;
         }

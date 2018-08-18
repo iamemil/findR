@@ -2,10 +2,19 @@
 .mainWrapper {
   font-family: 'Roboto',sans-serif;
   background-color: #14183a;
+  color: #cdced2;
 }
 
 .mainWrapper .navbar {
   background-color: #191f56;
+}
+
+.mainWrapper .navbar .nav-link, .mainWrapper .navbar a.nav-link {
+  color: #cdced2;
+}
+
+.mainWrapper .navbar .nav-link:hover, .mainWrapper .navbar .nav-link:active, .mainWrapper .navbar a.nav-link:hover, .mainWrapper .navbar a.nav-link:active {
+  color: #f3f3f3;
 }
 
 .mainWrapper .navbar .navbar-brand {
