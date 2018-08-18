@@ -1,5 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
+$navbar: #191f56;
+$bgcolor: #14183a;
+$textcolor1: #cdced2;
+$btncolor1: #f6c93b;
 .mainWrapper{
     font-family: 'Roboto',sans-serif;
+    background-color: $bgcolor;
+    .navbar{
+        background-color: $navbar;
+        .navbar-brand{
+            color: $textcolor1;
+        }
+        .navbar-toggler{
+            border-color: rgba(255, 255, 255, 0.44);
+            .navbar-toggler-icon{
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+        }
+        .btn{
+            color: $btncolor1;
+            background-color: transparent;
+            background-image: none;
+            border-color: $btncolor1;
+            border-radius: 30px;
+            transition: 0.5s;
+            &:hover,&:active{
+                background-color: $btncolor1;
+                color: white;
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+                -moz-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+                box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+                transition: 0.5s;
+            }
+        }
+    }
+    .jumbotron{
+        background-color: $bgcolor;
+        color: $textcolor1;
+    }
 }
+
+// f6c93b
