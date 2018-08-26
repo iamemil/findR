@@ -47,3 +47,40 @@ $btncolor1: #f6c93b;
         transition: 0.5s;
     }
 }
+
+.placeResults{
+    .placeResult{
+        padding-bottom: 30px;
+        .card{
+            box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            .card-body{
+                margin-left: 45%;
+                .card-img{
+                    width: 45%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    background-size: cover;
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                    img{
+                        transform: scale(1.38);
+                        width: 100%;
+                    }
+                }
+            }
+
+
+
+
+
+
+        }
+    }
+}
