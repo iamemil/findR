@@ -3,18 +3,26 @@
   font-family: 'Roboto',sans-serif;
 }
 
+.mainWrapper .color-yellow {
+  color: goldenrod !important;
+}
+
+.mainWrapper .bg-yellow {
+  background-color: goldenrod !important;
+}
+
 .mainWrapper .navbar .btn {
-  color: #f6c93b;
+  color: goldenrod;
   background-color: transparent;
   background-image: none;
-  border-color: #f6c93b;
+  border-color: goldenrod;
   border-radius: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .mainWrapper .navbar .btn:hover, .mainWrapper .navbar .btn:active {
-  background-color: #f6c93b;
+  background-color: goldenrod;
   color: white;
   -webkit-box-shadow: 0px 0px 15px 0px #f6c93b;
   box-shadow: 0px 0px 15px 0px #f6c93b;
@@ -39,11 +47,36 @@
   max-width: 100%;
 }
 
+.mainWrapper .place-name {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.mainWrapper .place-description::first-letter {
+  float: left;
+  color: goldenrod;
+  font-size: 90px;
+  line-height: 70px;
+  padding-right: 7px;
+  font-family: Georgia, serif;
+}
+
+.mainWrapper .place-offers a {
+  color: goldenrod;
+}
+
+.mainWrapper .place-offers .nav-pills .nav-link.active, .mainWrapper .place-offers .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: goldenrod;
+}
+
 .btn-yellow {
   color: white;
-  background-color: #f6c93b;
+  background-color: goldenrod;
   background-image: none;
-  border-color: #f6c93b;
+  border-color: goldenrod;
   border-radius: 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;

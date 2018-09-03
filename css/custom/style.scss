@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 $textcolor1: rgb(205, 206, 210);
-$btncolor1: #f6c93b;
+$yellowcolor: goldenrod;
 .mainWrapper{
     font-family: 'Roboto',sans-serif;
+    .color-yellow{
+        color: $yellowcolor !important;
+    }
+    .bg-yellow{
+        background-color: $yellowcolor !important;
+    }
     .navbar{
 
         .btn{
             color: $btncolor1;
             background-color: transparent;
             background-image: none;
-            border-color: $btncolor1;
+            border-color: $yellowcolor;
             border-radius: 30px;
             transition: 0.5s;
             &:hover,&:active{
-                background-color: $btncolor1;
+                background-color: $yellowcolor;
                 color: white;
                 -webkit-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
                 -moz-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
@@ -37,15 +43,38 @@ $btncolor1: #f6c93b;
             max-width: 100%;
          }
     }
+    .place-name{
+        font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 0;
+    }
+    .place-description::first-letter{
+        float: left;
+        color: $yellowcolor;
+        font-size: 90px; 
+        line-height: 70px;
+        padding-right: 7px;
+        font-family: Georgia, serif;
+    }
+    .place-offers{
+        a{
+            color: $yellowcolor;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+            color: #fff;
+            background-color: $yellowcolor;
+        }
+    }
 }
 
 // Buttons
 
 .btn-yellow{
     color: white;
-    background-color: $btncolor1;
+    background-color: $yellowcolor;
     background-image: none;
-    border-color: $btncolor1;
+    border-color: $yellowcolor;
     border-radius: 30px;
     transition: 0.5s;
     &:hover,&:active{
