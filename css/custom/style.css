@@ -78,6 +78,7 @@
 
 .mainWrapper .place-offers .item-price, .mainWrapper .place-contact .item-price {
   vertical-align: middle;
+  text-align: center;
 }
 
 .mainWrapper .place-offers .item-description, .mainWrapper .place-contact .item-description {
