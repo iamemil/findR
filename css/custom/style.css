@@ -67,24 +67,32 @@
   font-family: Georgia, serif;
 }
 
-.mainWrapper .place-offers a, .mainWrapper .place-contact a {
+.mainWrapper .place-offers a, .mainWrapper .place-details a {
   color: goldenrod;
 }
 
-.mainWrapper .place-offers .nav-pills .nav-link.active, .mainWrapper .place-offers .nav-pills .show > .nav-link, .mainWrapper .place-contact .nav-pills .nav-link.active, .mainWrapper .place-contact .nav-pills .show > .nav-link {
+.mainWrapper .place-offers i, .mainWrapper .place-details i {
+  font-size: 22px;
+}
+
+.mainWrapper .place-offers .nav-pills .nav-link.active, .mainWrapper .place-offers .nav-pills .show > .nav-link, .mainWrapper .place-details .nav-pills .nav-link.active, .mainWrapper .place-details .nav-pills .show > .nav-link {
   color: #fff;
   background-color: goldenrod;
 }
 
-.mainWrapper .place-offers .item-price, .mainWrapper .place-contact .item-price {
+.mainWrapper .place-offers .item-price, .mainWrapper .place-details .item-price {
   vertical-align: middle;
   text-align: center;
 }
 
-.mainWrapper .place-offers .item-description, .mainWrapper .place-contact .item-description {
+.mainWrapper .place-offers .item-description, .mainWrapper .place-details .item-description {
   font-size: 14px;
   opacity: 0.7;
   font-style: italic;
+}
+
+.mainWrapper .place-offers .map-canvas, .mainWrapper .place-details .map-canvas {
+  height: 400px;
 }
 
 .btn-yellow {

@@ -61,9 +61,12 @@ $yellowcolor: goldenrod;
         }
     }
 
-    .place-offers,.place-contact{
+    .place-offers,.place-details{
         a{
             color: $yellowcolor;
+        }
+        i{
+            font-size: 22px;
         }
         .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
             color: #fff;
@@ -78,6 +81,9 @@ $yellowcolor: goldenrod;
             opacity: 0.7;
             font-style: italic;
             }
+        .map-canvas{
+            height: 400px;
+        }
     }
 
 }
