@@ -113,6 +113,14 @@
   transition: 0.5s;
 }
 
+#loginRegisterTab a {
+  color: black;
+}
+
+#loginRegisterTab a.show, #loginRegisterTab a.active {
+  color: goldenrod !important;
+}
+
 .placeResults .placeResult {
   padding-bottom: 30px;
 }
