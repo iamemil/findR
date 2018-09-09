@@ -30,7 +30,7 @@
                         <a class="nav-link" href="#">Haqqında</a>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="btn px-3" href="#">Qeydiyyat / Giriş</a>
+                        <a class="btn px-3" href="#" data-toggle="modal" data-target="#authModal">Qeydiyyat / Giriş</a>
                     </li>
                 </ul>
             </div>
@@ -119,7 +119,70 @@
             </div>
           </footer>
 
-
+          <div class="modal fade" id="authModal" tabindex="-1" role="dialog" aria-labelledby="authModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+              
+                    <div class="modal-body">
+                      <ul class="nav nav-tabs" id="loginRegisterTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#loginTab" role="tab" aria-controls="login" aria-selected="true">Giriş</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#registerTab" role="tab" aria-controls="register" aria-selected="false">Qeydiyyat</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="loginTab" role="tabpanel" aria-labelledby="login-tab">
+                          <br>
+                          <form>
+                            <div class="form-group">
+                              <label for="loginInputEmail">Email adresiniz</label>
+                              <input type="email" class="form-control" id="loginInputEmail" placeholder="Email adresinizi daxil edin">
+                            </div>
+                            <div class="form-group">
+                              <label for="loginInputPassword">Şifrə</label>
+                              <input type="password" class="form-control" id="loginInputPassword" placeholder="Şifrənizi daxil edin">
+                            </div>
+              
+                            <button type="submit" class="btn btn-yellow">Daxil Ol</button>
+                          </form>
+                        </div>
+                        <div class="tab-pane fade" id="registerTab" role="tabpanel" aria-labelledby="register-tab">
+                          <br>
+                            <form>
+                                <div class="row">
+                                    <div class="col">
+                                      <input type="text" class="form-control" name="registerName" placeholder="Ad">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" name="registerSurname" placeholder="Soyad">
+                                      </div>
+                                      <div class="col">
+                                          <input type="text" class="form-control" name="registerUsername" placeholder="İstifadəçi adı">
+                                        </div>
+                                  </div>
+                                  <br>
+                                <div class="row">
+                                  <div class="col">
+                                      <input type="email" class="form-control" name="registerEmail" placeholder="Email adresi">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                  <div class="col">
+                                      <input type="password" class="form-control" id="registerPassword" placeholder="Şifrə">
+                                  </div>
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-yellow">Qeydiyyatdan keç</button>
+                              </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
