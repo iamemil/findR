@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+$textcolor1: rgb(205, 206, 210);
+$yellowcolor: goldenrod;
+.mainWrapper{
+    font-family: 'Roboto',sans-serif;
+    .color-yellow{
+        color: $yellowcolor !important;
+    }
+    .bg-yellow{
+        background-color: $yellowcolor !important;
+    }
+
+    .navbar{
+
+        .btn{
+            color: $yellowcolor;
+            background-color: transparent;
+            background-image: none;
+            border-color: $yellowcolor;
+            border-radius: 30px;
+            transition: 0.5s;
+            &:hover,&:active{
+                background-color: $yellowcolor;
+                color: white;
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+                -moz-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+                box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+                transition: 0.5s;
+            }
+        }
+    }
+    .searchPanel{
+        background-color: #e9ecef;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    .slideshow .carousel-inner{
+        width:100%;
+        max-height: 400px !important;
+         img {       
+            display:block;
+            height: auto; 
+            max-width: 100%;
+         }
+    }
+    .place-name{
+        font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 0;
+    }
+    .place-description{
+        margin-bottom: 3rem;
+        &::first-letter{
+            float: left;
+            color: $yellowcolor;
+            font-size: 90px; 
+            line-height: 70px;
+            padding-right: 7px;
+            font-family: Georgia, serif;
+        }
+    }
+
+    .place-offers,.place-details{
+        a{
+            color: $yellowcolor;
+        }
+        i{
+            font-size: 22px;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+            color: #fff;
+            background-color: $yellowcolor;
+        }
+        .item-price{
+            vertical-align: middle;
+            text-align: center;
+        }
+        .item-description{
+            font-size: 14px;
+            opacity: 0.7;
+            font-style: italic;
+            }
+        .map-canvas{
+            height: 400px;
+        }
+    }
+
+}
+
+// Buttons
+
+.btn-yellow{
+    color: white;
+    background-color: $yellowcolor;
+    background-image: none;
+    border-color: $yellowcolor;
+    border-radius: 30px;
+    transition: 0.5s;
+    &:hover,&:active{
+        color: white;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+        box-shadow: 0px 0px 15px 0px rgba(246,201,59,1);
+        transition: 0.5s;
+    }
+}
+#loginRegisterTab{
+    a{
+        color: black;
+    }
+    a.show,a.active{
+    color: $yellowcolor !important;
+    }
+}
+
+.placeResults{
+    .placeResult{
+        padding-bottom: 30px;
+        .card{
+            box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            .card-body{
+                margin-left: 45%;
+                .card-img{
+                    width: 45%;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    background-size: cover;
+                    border-top-left-radius: 20px;
+                    border-bottom-left-radius: 20px;
+                    img{
+                        transform: scale(1.38);
+                        width: 100%;
+                    }
+                }
+            }
+
+
+
+
+
+
+        }
+    }
+}
+
+// footer
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}

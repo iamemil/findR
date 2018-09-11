@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+        <h1 class="display-4">Məkanlardakı təklifləri bir yerdən izlə !</h1>
+        <p style="font-weight: 200;font-size: 30px;">Elə indi başla.</p>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="searchPanel">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Adres</label>
+                        <input type="text" class="form-control" id="placeAddress" placeholder="Adres">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Məkan Növü</label>
+                        <select class="custom-select">
+                            <option value="1">Restoran & Kafe</option>
+                            <option value="2">Əyləncə</option>
+                            <option value="3">İstirahət</option>
+                        </select>
+                    </div>
+                    <a href="#" class="btn btn-yellow px-5">Axtar</a>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-9 placeResults">
+            <div class="row">
+                <div class="col-md-6 col-xs-12 placeResult">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img">
+                                <img src="~/Public/img/4.jpg" alt="Apartment 9">
+                            </div>
+                            <h5 class="card-title">Apartment 9</h5>
+                            <p class="card-text"><i class="icon ion-md-locate"></i> 26 Affiyaddin Jalilov street</p>
+                            <a href="place.html" class="btn btn-yellow">More <i class="icon ion-md-arrow-forward"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 placeResult">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img">
+                                <img src="~/Public/img/2.jpg" alt="Boombalambuz">
+                            </div>
+                            <h5 class="card-title">Boombalambuz</h5>
+                            <p class="card-text"><i class="icon ion-md-locate"></i> Zeynalabdin Taghiyev 14, Bakı 1005, Azerbaijan</p>
+                            <a href="#" class="btn btn-yellow">More <i class="icon ion-md-arrow-forward"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12 placeResult">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-img">
+                                <img src="~/Public/img/3.jpg" alt="FRYDAY Baku">
+                            </div>
+                            <h5 class="card-title">FRYDAY Baku</h5>
+                            <p class="card-text"><i class="icon ion-md-locate"></i> Mammadamin Rasulzadeh 6A</p>
+                            <a href="#" class="btn btn-yellow">More <i class="icon ion-md-arrow-forward"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

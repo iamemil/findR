@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindR_Web", "FindR_Web\FindR_Web.csproj", "{6B481D9B-8980-4121-9E06-E12C10FA3C4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B481D9B-8980-4121-9E06-E12C10FA3C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B481D9B-8980-4121-9E06-E12C10FA3C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B481D9B-8980-4121-9E06-E12C10FA3C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B481D9B-8980-4121-9E06-E12C10FA3C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97C4E6FB-4235-4DEF-8B0B-1F36E44A2200}
+	EndGlobalSection
+EndGlobal
